@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experiences.css">
     <script defer src="js/app.js"></script>
 
 </head>
@@ -33,7 +36,7 @@
                     <img src="img/close.png" alt="cerrar menú">
                 </button>
                 <li>
-                    <a href="#profile">Perfil</a>
+                    <a href="#profile" class="selected">Perfil</a>
                 </li>
                 <li>
                     <a href="#experience">Experiencia</a>
@@ -47,6 +50,85 @@
             </ul>
         </nav>
     </header>
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, soy <br> Luis Reyes</h1>
+                <p class="profile-details">
+                    Soy un apasionado por las tecnologias de la informacion y el desarrollo de software, tengo mas de 10 años de experiencia en varios lenguajes de programacion y diferentes tecnologias.
+                </p>
+                <button class="profile-btn">
+                    Descargar CV
+                </button>
+            </div>
+            <span class="profile-img-section">
+                <img class="profile-img" src="img/LuisReyesSinFondo.png" alt="programador">
+                <div class="profile-img-line"></div>
+            </span>
+        </section>
+    </div>
+    <div class="horizontal-padding vertical-padding">
+        <section class="experiences" id="experience">
+            <img src="img/wave.svg" alt="division" class="wave">
+            <div class="experiences-body">
+                <h2 class="experiences-title">Experiencia</h2>
+                <div class="experiences-grid">
+                    <div class="empty"></div>
+                    <div class="line"></div>
+                    <div class="experience">
+                        <div class="experience-date">2021-2022</div>
+                        <div class="experience-company">Capredena</div>
+                        <div class="experience-position">FullStack Developer</div>
+                        <div class="experience-description">Mantencion de sistemas legados VB5, VB6, VBNET, asi como tambien migraciones de estos sistemas a nuevas teconlogias como Angular, NET CORE, APIS RestFull, entre otras tecnologias.</div>
+                    </div>
+                    <div class="experience experience_left">
+                        <div class="experience-date">2020-2021</div>
+                        <div class="experience-company">SAG</div>
+                        <div class="experience-position">Consultor Senior</div>
+                        <div class="experience-description">Encargado de desarrollar migracion de sistema de control de enfermedades de animales desde MVC .Net Framework hacia Angular por el lado de la vista y NET Core WEB API para el BackEnd. </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="empty"></div>
+                    <div class="empty"></div>
+                    <div class="line"></div>
+                    <div class="experience">
+                        <div class="experience-date">2019-2020</div>
+                        <div class="experience-company">Alto S.A.</div>
+                        <div class="experience-position">Software Developer</div>
+                        <div class="experience-description">Mantencion de sistema principal de la empresa (aplicacion para manejar el ausentismo laboral de las empresas), el cual fue realizado en MVC .Net Framework usando motor BD SQL Server, utilizando PowerBI de Microsoft para crear dashboards
+                            tanto para clientes internos como externos. </div>
+                    </div>
+                    <div class="experience experience_left">
+                        <div class="experience-date">2015-2019</div>
+                        <div class="experience-company">Banco Santander </div>
+                        <div class="experience-position">Software Developer</div>
+                        <div class="experience-description">Mantencion de sistemas legados VB6, integracion de piezas que interactuan entre sistemas antiguos y frameworks mas modernos como .Net, creacion de Bibliotecas de clases, servicios windows y web. Creacion de paginas web utilizando
+                            framework de JavaScript ExtJs</div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="empty"></div>
+                </div>
+            </div>
+            <img src="img/wave.svg" alt="division" class="wave wave_bottom">
+        </section>
+    </div>
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">JS</li>
+                <li class="skills-skill">NET CORE</li>
+                <li class="skills-skill">NODE JS</li>
+                <li class="skills-skill">ANGULAR</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="contact" id="contact"></section>
+    </div>
 
 </body>
 
